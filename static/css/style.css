@@ -452,9 +452,13 @@ th {
         flex-direction: column;
         min-height: 100vh
     }
-    #wrapper, #blog-header, #post-header {
+    #wrapper, #blog-header {
         -ms-flex: 1;
         flex: 1
+    }
+    #post-header {
+        -ms-flex: none;
+        flex: none
     }
 }
 
