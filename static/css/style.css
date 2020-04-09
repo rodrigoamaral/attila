@@ -1373,7 +1373,7 @@ img {
 
 .post {
     position: relative;
-    padding-top: 2em;
+    padding-top: 0;
     z-index: 10
 }
 
