@@ -68,6 +68,13 @@
           <section class="post-content">
               {{page.content}}
           </section>
+
+        {% if page.opml %}  
+          <section class="post-content">
+            {{ opml_data.to_html }}
+          </section>  
+        {% endif %}
+
       </div>
       </article>
   </main>
